@@ -35,6 +35,6 @@ module.exports = function main(num) {
 	}	
 	
 	var str2;
-	str2 = String(str1[0]+'\n'+str1[1]+'\n'+str1[2]+'\n');
+	str2 = str1[0]+'\n'+str1[1]+'\n'+str1[2]+'\n';
 	return str2;
 };
